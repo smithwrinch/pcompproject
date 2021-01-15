@@ -18,9 +18,9 @@ Obviously a key aim for this project was to become more proficient with actual p
 
 So my original plan was to have 32 servos each with a horn featuring 6 equally spaced spokes. Each spoke would then contain an led strip of length 3. They would be hexagonally arranged as I discovered this was the most efficient way to pack circles. These servos would be all stuck onto a peg board. The leds I bought were 144/m individually addressable WS2812B rgb strips.
 
-To better illustrate this I created a software prototype:  [https://jsfiddle.net/smithwrinch/krLobcx8/1/](https://jsfiddle.net/smithwrinch/krLobcx8/1/)
+To better illustrate this I created a software prototype:  [https://jsfiddle.net/smithwrinch/krLobcx8/6/](https://jsfiddle.net/smithwrinch/krLobcx8/6/)
 
-TODO: insert proto1
+![week 1](proto1.png)
 <!-- ![week 1](sleepy-ai.png) -->
 
 So I set out to begin soldering the 800+ joints required. I imagined this would work by using just one strip and threading the input of the next strip of 3 with the out of the next strip of three and back around such that each servo would just operate one strip. However, I quickly realised this would be a much more difficult task than I thought. The LEDs were very close together and as a result the soldering was significantly more fiddly than I had anticipated. As a result of this I decided to change my design and have just one spoke of 6 LEDs per servo. This cut down the amount of soldering required to a reasonable level.
@@ -28,6 +28,7 @@ So I set out to begin soldering the 800+ joints required. I imagined this would 
 This new software prototype can be seen here:
 [https://jsfiddle.net/smithwrinch/6145bd08/1/](https://jsfiddle.net/smithwrinch/6145bd08/1/)
 
+![week 1](proto2.png)
 After hours of failed attempts I managed to get a decent workflow for soldering the strips. What worked best for me was to cut off the strip early such that there were two copper contacts to solder onto, and then scratch them with a crafting knife to enable the solder to stick.
 
 The next challenge was to find a way of strengthening the joints as they were very fragile and would no doubt break when being moved by the servo. I experimented with a few processes and found using epoxy resin over electrical tape to work the best since it hardened to form a structure, instead of just binding the materials like superglue.
