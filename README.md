@@ -68,7 +68,9 @@ To power the system I bought a 6A 5V power supply. I used a spare plug to attach
 
 I build the enclosure using hardwood and I used the remaining of the acrylic to be able to see my labour of love at the back.
 
-![week 1](enclosure1.jpg)
+![week 1](enclousre1.jpg)
+![week 1](enclousre2.jpg)
+![week 1](enclousre3.jpg)
 
 The modes are controlled using a potentiometer at the side to keep with the turning aesthetic.
 
@@ -83,7 +85,7 @@ The sonar detectors were added angled at the front and there was a layer added u
 
 ### Circuit Diagram
 
-![week 1](circuit3.jpg)
+![week 1](circuit3.png)
 
 ### Dance mode
 A short dance showcasing some of the movement the system allows.
