@@ -21,7 +21,7 @@ So my original plan was to have 32 servos each with a horn featuring 6 equally s
 To better illustrate this I created a software prototype:  [https://jsfiddle.net/smithwrinch/krLobcx8/1/](https://jsfiddle.net/smithwrinch/krLobcx8/1/)
 
 TODO: insert proto1
-<!-- ![week 1](week1/sleepy-ai.png) -->
+<!-- ![week 1](sleepy-ai.png) -->
 
 So I set out to begin soldering the 800+ joints required. I imagined this would work by using just one strip and threading the input of the next strip of 3 with the out of the next strip of three and back around such that each servo would just operate one strip. However, I quickly realised this would be a much more difficult task than I thought. The LEDs were very close together and as a result the soldering was significantly more fiddly than I had anticipated. As a result of this I decided to change my design and have just one spoke of 6 LEDs per servo. This cut down the amount of soldering required to a reasonable level.
 
@@ -32,58 +32,58 @@ After hours of failed attempts I managed to get a decent workflow for soldering 
 
 The next challenge was to find a way of strengthening the joints as they were very fragile and would no doubt break when being moved by the servo. I experimented with a few processes and found using epoxy resin over electrical tape to work the best since it hardened to form a structure, instead of just binding the materials like superglue.
 
-![week 1](week1/epoxy.jpg)
+![week 1](epoxy.jpg)
 
 Now I had to find a way to mount the servos on the peg board. The servos would be controlled by two pca9685 drivers, each controlling 16. The peg board's hole were too limiting how much the servos could turn. It also would make the wiring for the strips too difficult without some more depth.
 
-![week 1](week1/drill_servo.jpg)
+![week 1](drill_servo.jpg)
 
 I had to use a drill to open up each one. Additionally I drilled a path for the wires from the led strip to move between such that there was less stress on the solder joints. I also sanded it.
 
-![week 1](week1/drill.jpg)
-![week 1](week1/sanding.jpg)
+![week 1](drill.jpg)
+![week 1](sanding.jpg)
 
 
 
 I realised the paths for the strip wires were also too narrow so, outside, I went through them with a soldering iron using a tip I didn't mind disposing.
 
-![week 1](week1/sanding2.jpg)
+![week 1](sanding2.jpg)
 
 Before sanding the pegboard down again I needed to find a way to attach the strips onto the servos. I bought a piece of acrylic and cut it down into small rectangles. 
 
-![week 1](week1/acrylic.jpg)
+![week 1](acrylic.jpg)
 
 I then superglued a servo horn onto each piece.
 
-![week 1](week1/horn.jpg)
+![week 1](horn.jpg)
 
 Then I attached the strips using double sided tape onto each horn. Now I could place everything together.
 
-![week 1](week1/strip_tape.jpg)
-![week 1](week1/together.jpg)
+![week 1](strip_tape.jpg)
+![week 1](together.jpg)
 
 To power the system I bought a 6A 5V power supply. I used a spare plug to attach it to, but I had to replace the fuse.
 
-![week 1](week1/power1.jpg)
+![week 1](power1.jpg)
 
 I build the enclosure using hardwood and I used the remaining of the acrylic to be able to see my labour of love at the back.
 
-![week 1](week1/enclosure1.jpg)
+![week 1](enclosure1.jpg)
 
 The modes are controlled using a potentiometer at the side to keep with the turning aesthetic.
 
-![week 1](week1/pot.jpg)
+![week 1](pot.jpg)
 
 The sonar detectors were added angled at the front and there was a layer added underneath to fit the wires through to the back.
 
-![week 1](week1/side.jpg)
-![week 1](week1/side2.jpg)
+![week 1](side.jpg)
+![week 1](side2.jpg)
 
 ## Features
 
 ### Circuit Diagram
 
-![week 1](week1/circuit3.jpg)
+![week 1](circuit3.jpg)
 
 ### Dance mode
 A short dance showcasing some of the movement the system allows.
