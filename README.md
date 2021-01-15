@@ -90,19 +90,20 @@ The sonar detectors were added angled at the front and there was a layer added u
 
 ### Dance mode
 A short dance showcasing some of the movement the system allows.
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IS-FaFrE7Ds/0.jpg)](https://www.youtube.com/watch?v=IS-FaFrE7Ds)
 
 ### Game Of Life
 Slightly adapted for a hexagonal grid as opposed to a cartesian one. If the cell is alive it is green and upright, if it is dead it is read and to it's side. 
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/FNDhy9-EOps/0.jpg)](https://www.youtube.com/watch?v=FNDhy9-EOps)
 ### Real Time Clock
 The hours are represented on the left as blue. Each of the 30 other strips represent two minutes each and they turn when the condition is met.
 
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/FNDhy9-EOps/0.jpg)](https://www.youtube.com/watch?v=FNDhy9-EOps)
 ### Sonar
 Originally I wanted the spokes to all turn to the direction of the hand given an xy coordinate. However, I found it much too inaccurate and instead opted for a left/right or upright approach. You can change the hue by increasing the height of the hand.
 
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SasmGzc8EKA/0.jpg)](https://www.youtube.com/watch?v=SasmGzc8EKA)
 ## Evaluation
 This took me over 100 hours in total and it was a lot more work than I had anticipated. I am happy with the final design of the system but I think there was more to be done programmatically. 
 
