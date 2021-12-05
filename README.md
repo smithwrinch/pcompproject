@@ -106,7 +106,7 @@ Originally I wanted the spokes to all turn to the direction of the hand given an
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SasmGzc8EKA/0.jpg)](https://www.youtube.com/watch?v=SasmGzc8EKA)
 ## Evaluation
-This took me over 100 hours in total and it was a lot more work than I had anticipated. I am happy with the final design of the system but I think there was more to be done programmatically. 
+It was a lot more work than I had anticipated. I am happy with the final design of the system but I think there was more to be done programmatically. 
 
 ## Future work
 
